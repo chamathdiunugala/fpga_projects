@@ -1,0 +1,4 @@
+module pipelined_adder_tb(
+)
+
+endmodule

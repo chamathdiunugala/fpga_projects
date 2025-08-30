@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Aug 29 01:27:30 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : adder_test
+Top-level Entity Name : adder_test
+Family : Cyclone IV E
+Total logic elements : 259
+    Total combinational functions : 259
+    Dedicated logic registers : 102
+Total registers : 102
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

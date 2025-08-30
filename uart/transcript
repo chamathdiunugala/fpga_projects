@@ -1,0 +1,10 @@
+# Compile of uart_rx.sv was successful.
+# Compile of uart_rx_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.uart_rx
+# vsim work.uart_rx 
+# Start time: 17:59:54 on Aug 19,2025
+# Loading sv_std.std
+# Loading work.uart_rx
+# End time: 18:00:01 on Aug 19,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 8

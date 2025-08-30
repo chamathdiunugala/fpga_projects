@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vtraffic_light_controller
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1755070205
+!i10b 1
+!s100 9>EYdSgbBNb]@J@9mn?R?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWh1<AAVW3kBn<ll_U3fe62
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dE:/digital designs/traffic_light_controller
+w1755070113
+8E:\digital designs\traffic_light_controller\traffic_light_controller.sv
+FE:\digital designs\traffic_light_controller\traffic_light_controller.sv
+!i122 10
+L0 1 370
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1755070204.000000
+!s107 E:\digital designs\traffic_light_controller\traffic_light_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\digital designs\traffic_light_controller\traffic_light_controller.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vtraffic_light_controller_tb
+R0
+R1
+!i10b 1
+!s100 YZmX[3QN`>VnR1<NaA<g02
+R2
+Id]b_8]f1KEdgi>cc0WO[k2
+R3
+S1
+R4
+w1754968354
+8E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv
+FE:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv
+!i122 11
+L0 3 60
+R5
+r1
+!s85 0
+31
+!s108 1755070205.000000
+!s107 E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv|
+!i113 1
+R6
+R7

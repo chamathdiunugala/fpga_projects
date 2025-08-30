@@ -1,0 +1,15 @@
+{E:/digital designs/block_ram/block_ram_tb.v} {1 {vlog -work work -stats=none {E:/digital designs/block_ram/block_ram_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module block_ram_tb
+
+Top level modules:
+	block_ram_tb
+
+} {} {}} {E:/digital designs/block_ram/block_ram.v} {1 {vlog -work work -stats=none {E:/digital designs/block_ram/block_ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module block_ram
+
+Top level modules:
+	block_ram
+
+} {} {}}

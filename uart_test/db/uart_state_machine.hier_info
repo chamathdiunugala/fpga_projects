@@ -1,0 +1,105 @@
+|uart_state_machine
+CLOCK_50 => CLOCK_50.IN1
+GPIO => GPIO.IN1
+rst_n => state_machine_debug:state_machine_inst.rst_n
+rst_n => detect_latch.OUTPUTSELECT
+rst_n => led_data.OUTPUTSELECT
+rst_n => led_data.OUTPUTSELECT
+rst_n => led_data.OUTPUTSELECT
+rst_n => led_data.OUTPUTSELECT
+rst_n => delayed_bit.OUTPUTSELECT
+rst_n => delayed_data_valid.OUTPUTSELECT
+LEDR[0] << led_data[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] << led_data[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] << led_data[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << led_data[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] << detect_latch.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] << state_machine_debug:state_machine_inst.detect
+LEDR[6] << uart_rx:uart_rx_inst.o_data_available
+LEDR[7] << uart_rx:uart_rx_inst.o_data
+LEDR[8] << state_machine_debug:state_machine_inst.current_state[0]
+LEDR[9] << state_machine_debug:state_machine_inst.current_state[1]
+
+
+|uart_state_machine|uart_rx:uart_rx_inst
+clk => data[0].CLK
+clk => data[1].CLK
+clk => data[2].CLK
+clk => data[3].CLK
+clk => data[4].CLK
+clk => data[5].CLK
+clk => data[6].CLK
+clk => data[7].CLK
+clk => bit_index[0].CLK
+clk => bit_index[1].CLK
+clk => bit_index[2].CLK
+clk => data_available.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk => counter[28].CLK
+clk => counter[29].CLK
+clk => counter[30].CLK
+clk => counter[31].CLK
+clk => rx.CLK
+clk => rx_buffer.CLK
+clk => state~1.DATAIN
+i_rx => rx_buffer.DATAIN
+o_data[0] <= data[0].DB_MAX_OUTPUT_PORT_TYPE
+o_data[1] <= data[1].DB_MAX_OUTPUT_PORT_TYPE
+o_data[2] <= data[2].DB_MAX_OUTPUT_PORT_TYPE
+o_data[3] <= data[3].DB_MAX_OUTPUT_PORT_TYPE
+o_data[4] <= data[4].DB_MAX_OUTPUT_PORT_TYPE
+o_data[5] <= data[5].DB_MAX_OUTPUT_PORT_TYPE
+o_data[6] <= data[6].DB_MAX_OUTPUT_PORT_TYPE
+o_data[7] <= data[7].DB_MAX_OUTPUT_PORT_TYPE
+o_data_available <= data_available.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|uart_state_machine|state_machine_debug:state_machine_inst
+clk => state~2.DATAIN
+rst_n => state~4.DATAIN
+din => next_state.DATAB
+din => next_state.DATAB
+din => Selector0.IN2
+din => detect.DATAB
+din => next_state.S1.DATAB
+data_valid => state.OUTPUTSELECT
+data_valid => state.OUTPUTSELECT
+data_valid => state.OUTPUTSELECT
+data_valid => state.OUTPUTSELECT
+data_valid => next_state.S0.OUTPUTSELECT
+data_valid => next_state.S1.OUTPUTSELECT
+data_valid => next_state.S2.OUTPUTSELECT
+data_valid => next_state.S3.OUTPUTSELECT
+data_valid => detect.OUTPUTSELECT
+detect <= detect.DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= current_state.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= current_state.DB_MAX_OUTPUT_PORT_TYPE
+
+

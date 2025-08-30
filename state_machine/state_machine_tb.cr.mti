@@ -1,0 +1,15 @@
+{E:/digital designs/state_machine/state_machine.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/state_machine/state_machine.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state_machine
+
+Top level modules:
+	state_machine
+
+} {} {}} {E:/digital designs/state_machine/state_machine_tb.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/state_machine/state_machine_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state_machine_tb
+
+Top level modules:
+	state_machine_tb
+
+} {} {}}

@@ -1,0 +1,57 @@
+`timescale 1ns/1ps
+
+module seq_detector_0110 (
+    input  logic clk,
+    input  logic rst_n,  // active-low reset
+    input  logic din,    // serial input bit
+    output logic detect  // goes high when "0110" detected
+);
+
+    typedef enum logic [1:0] {
+        S0, // no match
+        S1, // got 0
+        S2, // got 01
+        S3  // got 011
+    } state_t;
+
+    state_t current_state, next_state;
+
+    // State register
+    always_ff @(posedge clk or negedge rst_n) begin
+        if (!rst_n)
+            current_state <= S0;
+        else
+            current_state <= next_state;
+    end
+
+    // Next state logic & output
+    always_comb begin
+        next_state = current_state;
+        detect     = 1'b0;
+
+        case (current_state)
+            S0: begin
+                if (din == 0) next_state = S1;
+                else          next_state = S0;
+            end
+            S1: begin
+                if (din == 1) next_state = S2;
+                else          next_state = S1; // stay in S1 if another 0
+            end
+            S2: begin
+                if (din == 1) next_state = S3;
+                else          next_state = S1; // restart match from 0
+            end
+            S3: begin
+                if (din == 0) begin
+                    next_state = S1; // last 0 can start new match
+                    detect     = 1'b1; // sequence found
+                end
+                else begin
+                    next_state = S0;
+                end
+            end
+        endcase
+    end
+
+endmodule

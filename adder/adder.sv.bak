@@ -1,0 +1,11 @@
+module adder(
+input a, b, cin,
+output sum, cout
+);
+
+always_comb 
+begin
+	sum = a ^ b ^ c;
+	cout = (a & b) | (cin & (a ^ b))
+end
+endmodule

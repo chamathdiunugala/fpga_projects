@@ -1,0 +1,15 @@
+{E:/digital designs/traffic_light_controller/traffic_light_controller.sv} {1 {vlog -work work -sv -stats=none {E:\digital designs\traffic_light_controller\traffic_light_controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module traffic_light_controller
+
+Top level modules:
+	traffic_light_controller
+
+} {} {}} {E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module traffic_light_controller_tb
+
+Top level modules:
+	traffic_light_controller_tb
+
+} {} {}}

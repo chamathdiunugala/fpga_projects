@@ -1,0 +1,5 @@
+|button_led
+key0 => led0.DATAIN
+led0 << key0.DB_MAX_OUTPUT_PORT_TYPE
+
+

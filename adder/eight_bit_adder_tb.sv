@@ -1,0 +1,47 @@
+`timescale 1ns/1ps
+
+module eight_bit_adder_tb;
+
+    // Testbench signals
+    logic [7:0] a, b;
+    logic       cin;
+    logic [7:0] sum;
+    logic       cout;
+
+    // Instantiate DUT
+    eight_bit_adder dut (
+        .a(a),
+        .b(b),
+        .cin(cin),
+        .sum(sum),
+        .cout(cout)
+    );
+
+    initial begin
+        $display("       a        b   cin |   sum     cout");
+        $display("------------------------------------------");
+
+        // Test 1: 0 + 0 + 0
+        a = 8'h00; b = 8'h00; cin = 0; #10;
+        $display("%h  %h   %b  |  %h     %b", a, b, cin, sum, cout);
+
+        // Test 2: 5 + 3 + 0
+        a = 8'h05; b = 8'h03; cin = 0; #10;
+        $display("%h  %h   %b  |  %h     %b", a, b, cin, sum, cout);
+
+        // Test 3: 200 + 100 + 0
+        a = 8'd200; b = 8'd100; cin = 0; #10;
+        $display("%h  %h   %b  |  %h     %b", a, b, cin, sum, cout);
+
+        // Test 4: 255 + 1 + 0 (overflow expected)
+        a = 8'hFF; b = 8'h01; cin = 0; #10;
+        $display("%h  %h   %b  |  %h     %b", a, b, cin, sum, cout);
+
+        // Test 5: Random values with cin=1
+        a = 8'hAB; b = 8'hCD; cin = 1; #10;
+        $display("%h  %h   %b  |  %h     %b", a, b, cin, sum, cout);
+
+        $finish;
+    end
+
+endmodule

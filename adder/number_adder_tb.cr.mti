@@ -1,0 +1,43 @@
+{E:/digital designs/adder/eight_bit_adder.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/adder/eight_bit_adder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eight_bit_adder
+
+Top level modules:
+	eight_bit_adder
+
+} {} {}} {E:/digital designs/adder/eight_bit_adder_tb.sv} {1 {vlog -work work -sv -stats=none {E:\digital designs\adder\eight_bit_adder_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module eight_bit_adder_tb
+
+Top level modules:
+	eight_bit_adder_tb
+
+} {} {}} {E:/digital designs/adder/number_adder.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/adder/number_adder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module number_adder
+
+Top level modules:
+	number_adder
+
+} {} {}} {E:/digital designs/adder/adder.sv} {1 {vlog -work work -sv -stats=none {E:\digital designs\adder\adder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {E:/digital designs/adder/number_adder_tb.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/adder/number_adder_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module number_adder_tb
+
+Top level modules:
+	number_adder_tb
+
+} {} {}} {E:/digital designs/adder/adder_tb.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/adder/adder_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}}

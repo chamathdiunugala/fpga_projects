@@ -1,0 +1,105 @@
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.pipelined_adder_tb
+# vsim work.pipelined_adder_tb 
+# Start time: 08:31:38 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.pipelined_adder_tb
+# Loading work.pipelined_adder
+# Loading work.eight_bit_adder
+# Loading work.adder
+add wave -position insertpoint  \
+sim:/pipelined_adder_tb/a \
+sim:/pipelined_adder_tb/b \
+sim:/pipelined_adder_tb/cin \
+sim:/pipelined_adder_tb/sum \
+sim:/pipelined_adder_tb/cout \
+sim:/pipelined_adder_tb/clk \
+sim:/pipelined_adder_tb/rst \
+sim:/pipelined_adder_tb/test_vecs \
+sim:/pipelined_adder_tb/i
+# (vsim-4027) Logging is not supported for Dynamic Array item: /pipelined_adder_tb/test_vecs
+run -all
+# Time    |    a           b       cin | sum          cout
+# ** Note: $finish    : E:/digital designs/pipelined_adder/pipelined_adder_tb.sv(80)
+#    Time: 15 ns  Iteration: 1  Instance: /pipelined_adder_tb
+# 1
+# Break in Module pipelined_adder_tb at E:/digital designs/pipelined_adder/pipelined_adder_tb.sv line 80
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of pipelined_adder_tb.sv failed with 1 errors.
+# Compile of adder.sv was successful.
+# Compile of eight_bit_adder.sv was successful.
+# Compile of pipelined_adder.sv was successful.
+# Compile of pipelined_adder_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.pipelined_adder_tb
+# End time: 08:36:46 on Aug 15,2025, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 9
+# vsim work.pipelined_adder_tb 
+# Start time: 08:36:46 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.pipelined_adder_tb
+# Loading work.pipelined_adder
+# Loading work.eight_bit_adder
+# Loading work.adder
+add wave -position insertpoint  \
+sim:/pipelined_adder_tb/a \
+sim:/pipelined_adder_tb/b \
+sim:/pipelined_adder_tb/cin \
+sim:/pipelined_adder_tb/sum \
+sim:/pipelined_adder_tb/cout \
+sim:/pipelined_adder_tb/clk \
+sim:/pipelined_adder_tb/rst \
+sim:/pipelined_adder_tb/test_vecs \
+sim:/pipelined_adder_tb/i
+run -all
+# Time    |    a           b       cin | sum          cout
+# 25000 | 00000000  00000000  0 | 00xxxxxx  0
+# 35000 | 00000000  00000000  0 | 00000000  0
+# 45000 | 00000005  00000003  0 | 00000000  0
+# 55000 | 000000c8  0000012c  0 | 00000000  0
+# 65000 | ffffffff  00000001  0 | 00000000  0
+# 75000 | 000000ab  000000cd  1 | 00000000  0
+# 85000 | 12345678  87654321  0 | 00000008  0
+# 95000 | 000001f4  000003e8  1 | 000001f4  1
+# 105000 | 000003e7  00000001  0 | 00000000  0
+# 115000 | cafebabe  11111111  0 | 99000179  0
+# 125000 | ffffffff  00000001  0 | 00999999  0
+# 135000 | 00000000  00000000  0 | 000005dd  0
+# 145000 | 00000000  00000000  0 | dc0003e8  0
+# 155000 | 00000000  00000000  0 | 000fcbcf  1
+# 165000 | 00000000  00000000  0 | 00000000  0
+# 175000 | 00000000  00000000  0 | 00000000  0
+# ** Note: $finish    : E:/digital designs/pipelined_adder/pipelined_adder_tb.sv(80)
+#    Time: 175 ns  Iteration: 1  Instance: /pipelined_adder_tb
+# 1
+# Break in Module pipelined_adder_tb at E:/digital designs/pipelined_adder/pipelined_adder_tb.sv line 80
+# End time: 14:02:16 on Aug 15,2025, Elapsed time: 5:25:30
+# Errors: 0, Warnings: 1

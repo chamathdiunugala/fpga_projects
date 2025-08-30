@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vuart_rx
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1755606587
+!i10b 1
+!s100 YCOiA`2MmlS?ccTgBSjOH0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IRD3VE3:<k6M6M1HeL0Z:20
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+dE:/digital designs/uart
+w1755606373
+8E:/digital designs/uart/uart_rx_tb.sv
+FE:/digital designs/uart/uart_rx_tb.sv
+!i122 10
+L0 2 89
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1755606587.000000
+!s107 E:/digital designs/uart/uart_rx_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/uart/uart_rx_tb.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0

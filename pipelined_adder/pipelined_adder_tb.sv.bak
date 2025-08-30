@@ -1,0 +1,92 @@
+`timescale 1ns/1ps
+
+module pipelined_adder_tb;
+
+    logic [31:0] a, b;
+    logic cin;
+    logic [31:0] sum;
+    logic cout;
+    logic clk, rst;
+
+    // Instantiate DUT
+    pipelined_adder dut (
+        .a(a),
+        .b(b),
+        .cin(cin),
+        .sum(sum),
+        .cout(cout),
+        .clk(clk),
+        .rst(rst)
+    );
+
+    // Clock generation
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // 100 MHz clock
+    end
+
+    // Test vector storage
+    typedef struct {
+        logic [31:0] a;
+        logic [31:0] b;
+        logic cin;
+    } input_t;
+
+    input_t test_vecs [0:9]; // 10 input pairs
+
+    initial begin
+        // Prepare test data
+        test_vecs[0] = '{32'h00000000, 32'h00000000, 0};
+        test_vecs[1] = '{32'h00000005, 32'h00000003, 0};
+        test_vecs[2] = '{32'd200,      32'd300,      0};
+        test_vecs[3] = '{32'hFFFFFFFF, 32'h00000001, 0};
+        test_vecs[4] = '{32'hAB,       32'hCD,       1};
+        test_vecs[5] = '{32'h12345678, 32'h87654321, 0};
+        test_vecs[6] = '{32'd500,      32'd1000,     1};
+        test_vecs[7] = '{32'd999,      32'd1,        0};
+        test_vecs[8] = '{32'hCAFEBABE, 32'h11111111, 0};
+        test_vecs[9] = '{32'd4294967295, 32'd1,      0}; // overflow case
+    end
+
+    integer i;
+
+    initial begin
+        // Reset sequence
+        rst = 0;
+        a   = 0;
+        b   = 0;
+        cin = 0;
+        repeat (2) @(posedge clk); // hold reset for 2 cycles
+        rst = 1;
+
+        $display("Time    |    a           b       cin | sum          cout");
+
+        // Feed one input per cycle
+        for (i = 0; i < test_vecs.size; i++) begin
+            @(posedge clk);
+            a   <= test_vecs[i].a;
+            b   <= test_vecs[i].b;
+            cin <= test_vecs[i].cin;
+        end
+
+        // Feed zeros after inputs to flush pipeline
+        for (i = 0; i < 6; i++) begin
+            @(posedge clk);
+            a   <= 0;
+            b   <= 0;
+            cin <= 0;
+        end
+
+        $finish;
+    end
+
+    // Monitor outputs every clock
+    always_ff @(posedge clk) begin
+        if (rst) begin
+            $display("%0t | %h  %h  %b | %h  %b", 
+                $time, a, b, cin, sum, cout);
+        end
+    end
+
+endmodule
+

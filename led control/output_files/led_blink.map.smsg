@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at led_blink.v(8): always construct contains both blocking and non-blocking assignments File: E:/digital designs/led control/led_blink.v Line: 8

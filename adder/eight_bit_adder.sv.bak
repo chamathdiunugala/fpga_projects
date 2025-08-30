@@ -1,0 +1,13 @@
+module eight_bit_adder(
+input reg [7:0] a,
+input reg [7:0] b,
+input cin
+output reg [7:0] sum,
+output cout
+);
+
+wire [6:0] carry
+
+adder a1(a[0], b[0], cin, sum[0], carry[0];
+
+endmodule

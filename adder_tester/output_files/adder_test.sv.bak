@@ -1,0 +1,43 @@
+module adder_test(
+    input  logic clk,
+    input  logic rst_n,
+    output logic led
+);
+
+	logic clock;
+	
+	logic sum;
+	logic cout;
+
+	timer timer_inst(
+	.clk(clk),
+	.rst_n(rst_n),
+	.led(error)
+	); 
+	
+	number_adder number_adder_inst(
+	.a(),
+	.b(),
+	.cin(),
+	.sum(),
+	.cout()
+	);
+	
+	logic [3:0] count;
+
+    always_ff @(posedge clock or negedge rst_n) begin
+        if (!rst_n) begin
+				count <= 0;
+        end
+        else begin
+            if (count < 10) begin
+					count <= count + 1;
+				end
+				else begin
+					count <= 0;
+				end
+        end
+    end
+
+
+endmodule

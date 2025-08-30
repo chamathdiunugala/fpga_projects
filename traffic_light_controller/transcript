@@ -1,0 +1,1031 @@
+# Compile of traffic_light_controller.sv was successful.
+# Compile of traffic_light_controller_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.traffic_light_controller_tb
+# vsim work.traffic_light_controller_tb 
+# Start time: 12:44:32 on Aug 13,2025
+# Loading sv_std.std
+# Loading work.traffic_light_controller_tb
+# Loading work.traffic_light_controller
+add wave -position insertpoint  \
+sim:/traffic_light_controller_tb/clk \
+sim:/traffic_light_controller_tb/rst \
+sim:/traffic_light_controller_tb/f1 \
+sim:/traffic_light_controller_tb/f2 \
+sim:/traffic_light_controller_tb/f3 \
+sim:/traffic_light_controller_tb/f4 \
+sim:/traffic_light_controller_tb/r1 \
+sim:/traffic_light_controller_tb/r2 \
+sim:/traffic_light_controller_tb/r3 \
+sim:/traffic_light_controller_tb/r4 \
+sim:/traffic_light_controller_tb/l1 \
+sim:/traffic_light_controller_tb/l2 \
+sim:/traffic_light_controller_tb/l3 \
+sim:/traffic_light_controller_tb/l4 \
+sim:/traffic_light_controller_tb/c1 \
+sim:/traffic_light_controller_tb/c2 \
+sim:/traffic_light_controller_tb/c3 \
+sim:/traffic_light_controller_tb/c4
+run -all
+# Time: 5000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 15000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 25000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 35000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 45000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 55000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 65000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 75000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 85000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 95000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 285000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 295000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 315000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 325000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 335000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 345000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 355000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 365000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 465000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 475000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 495000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 505000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 515000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 525000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 535000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 545000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 645000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 655000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 675000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 685000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 695000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 705000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 715000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 725000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 825000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 835000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 855000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 865000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 875000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 885000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 895000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 905000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1005000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1015000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1035000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1045000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1055000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1065000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1075000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1085000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1095000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1105000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1115000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1125000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1135000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1145000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1155000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1165000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1175000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1185000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1195000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1205000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1215000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1225000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1235000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 1255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 1265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 1275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 1285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 1295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 1305000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 1315000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 1325000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 1335000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 1345000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 1355000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 1365000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 1375000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 1385000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 1395000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 1405000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 1415000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 1425000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 1435000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 1445000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 1455000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1465000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 1475000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 1485000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1495000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1505000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1515000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1525000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1535000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1545000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1555000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1565000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1575000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1585000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1595000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1605000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1615000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1625000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1635000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1645000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1655000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1665000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1675000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1685000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1695000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1705000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1715000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1725000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1735000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1745000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1755000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1765000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1775000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1785000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1795000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1805000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1815000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1825000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1835000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1845000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1855000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1865000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 1875000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 1885000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 1895000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 1905000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 1915000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 1925000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 1935000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 1945000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 1955000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 1965000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 1975000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 1985000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 1995000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2005000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2015000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2025000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2035000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2045000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2055000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2065000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2075000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2085000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2095000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 2105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 2115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 2125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 2135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 2145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 2155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 2165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 2175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 2185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 2195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 2205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 2215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 2225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 2235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 2245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 2255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 2265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 2275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 2285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 2295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 2305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2315000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 2325000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 2335000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2345000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2355000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2365000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2465000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2475000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2495000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2505000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2515000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2525000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2535000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2545000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2645000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2655000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2675000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2685000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2695000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2705000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2715000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2725000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 2745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 2755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 2765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 2775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 2785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 2795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 2805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 2815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 2825000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 2835000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 2845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2855000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2865000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2875000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2885000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2895000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2905000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 3005000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 3015000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 3025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 3035000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Testbench completed successfully
+# ** Note: $finish    : E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv(53)
+#    Time: 3040 ns  Iteration: 0  Instance: /traffic_light_controller_tb
+# 1
+# Break in Module traffic_light_controller_tb at E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv line 53
+# Compile of traffic_light_controller.sv was successful.
+# Compile of traffic_light_controller_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.traffic_light_controller_tb
+# End time: 12:54:31 on Aug 13,2025, Elapsed time: 0:09:59
+# Errors: 0, Warnings: 3
+# vsim work.traffic_light_controller_tb 
+# Start time: 12:54:32 on Aug 13,2025
+# Loading sv_std.std
+# Loading work.traffic_light_controller_tb
+# Loading work.traffic_light_controller
+# Compile of traffic_light_controller.sv was successful.
+# Compile of traffic_light_controller_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.traffic_light_controller_tb
+# End time: 12:55:37 on Aug 13,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 2
+# vsim work.traffic_light_controller_tb 
+# Start time: 12:55:37 on Aug 13,2025
+# Loading sv_std.std
+# Loading work.traffic_light_controller_tb
+# Loading work.traffic_light_controller
+add wave -position insertpoint  \
+sim:/traffic_light_controller_tb/clk \
+sim:/traffic_light_controller_tb/rst \
+sim:/traffic_light_controller_tb/f1 \
+sim:/traffic_light_controller_tb/f2 \
+sim:/traffic_light_controller_tb/f3 \
+sim:/traffic_light_controller_tb/f4 \
+sim:/traffic_light_controller_tb/r1 \
+sim:/traffic_light_controller_tb/r2 \
+sim:/traffic_light_controller_tb/r3 \
+sim:/traffic_light_controller_tb/r4 \
+sim:/traffic_light_controller_tb/l1 \
+sim:/traffic_light_controller_tb/l2 \
+sim:/traffic_light_controller_tb/l3 \
+sim:/traffic_light_controller_tb/l4 \
+sim:/traffic_light_controller_tb/c1 \
+sim:/traffic_light_controller_tb/c2 \
+sim:/traffic_light_controller_tb/c3 \
+sim:/traffic_light_controller_tb/c4
+run -all
+# Time: 5000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 15000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 25000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 35000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 45000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 55000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 65000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 75000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 85000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 95000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 285000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 295000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 315000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 325000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 335000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 345000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 355000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 365000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 465000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 475000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 495000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 505000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 515000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 525000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 535000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 545000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 645000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 655000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 675000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 685000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 695000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 705000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 715000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 725000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 825000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 835000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 855000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 865000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 875000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 885000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 895000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 905000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1005000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1015000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1035000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1045000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1055000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1065000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1075000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1085000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1095000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1105000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1115000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1125000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1135000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1145000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1155000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1165000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1175000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1185000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1195000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1205000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1215000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1225000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1235000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 1255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 1265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 1275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 1285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 1295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 1305000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 1315000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 1325000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 1335000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 1345000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 1355000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 1365000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 1375000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 1385000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 1395000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 1405000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 1415000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 1425000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 1435000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 1445000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 1455000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1465000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 1475000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 1485000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1495000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1505000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1515000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1525000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1535000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1545000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1555000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1565000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1575000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1585000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1595000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1605000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1615000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1625000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1635000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1645000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1655000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1665000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1675000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1685000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1695000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1705000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1715000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1725000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1735000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1745000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1755000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1765000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1775000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1785000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1795000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1805000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1815000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1825000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1835000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1845000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1855000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1865000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 1875000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 1885000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 1895000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 1905000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 1915000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 1925000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 1935000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 1945000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 1955000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 1965000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 1975000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 1985000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 1995000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2005000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2015000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2025000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2035000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2045000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2055000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2065000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2075000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2085000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2095000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 2105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 2115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 2125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 2135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 2145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 2155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 2165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 2175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 2185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 2195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 2205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 2215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 2225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 2235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 2245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 2255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 2265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 2275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 2285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 2295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 2305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2315000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 2325000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 2335000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2345000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2355000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2365000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2465000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2475000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2495000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2505000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2515000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2525000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2535000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2545000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2645000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2655000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2675000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2685000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2695000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2705000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2715000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2725000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 2745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 2755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 2765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 2775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 2785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 2795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 2805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 2815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 2825000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 2835000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 2845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2855000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2865000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2875000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2885000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2895000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2905000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 3005000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 3015000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 3025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 3035000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Testbench completed successfully
+# ** Note: $finish    : E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv(53)
+#    Time: 3040 ns  Iteration: 0  Instance: /traffic_light_controller_tb
+# 1
+# Break in Module traffic_light_controller_tb at E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv line 53
+# Compile of traffic_light_controller.sv was successful.
+# Compile of traffic_light_controller_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.traffic_light_controller_tb
+# End time: 13:00:17 on Aug 13,2025, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 2
+# vsim work.traffic_light_controller_tb 
+# Start time: 13:00:17 on Aug 13,2025
+# Loading sv_std.std
+# Loading work.traffic_light_controller_tb
+# Loading work.traffic_light_controller
+add wave -position insertpoint  \
+sim:/traffic_light_controller_tb/clk \
+sim:/traffic_light_controller_tb/rst \
+sim:/traffic_light_controller_tb/f1 \
+sim:/traffic_light_controller_tb/f2 \
+sim:/traffic_light_controller_tb/f3 \
+sim:/traffic_light_controller_tb/f4 \
+sim:/traffic_light_controller_tb/r1 \
+sim:/traffic_light_controller_tb/r2 \
+sim:/traffic_light_controller_tb/r3 \
+sim:/traffic_light_controller_tb/r4 \
+sim:/traffic_light_controller_tb/l1 \
+sim:/traffic_light_controller_tb/l2 \
+sim:/traffic_light_controller_tb/l3 \
+sim:/traffic_light_controller_tb/l4 \
+sim:/traffic_light_controller_tb/c1 \
+sim:/traffic_light_controller_tb/c2 \
+sim:/traffic_light_controller_tb/c3 \
+sim:/traffic_light_controller_tb/c4
+run -all
+# Time: 5000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 15000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 25000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 35000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 45000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 55000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 65000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 75000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 85000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 95000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 285000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 295000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 315000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 325000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 335000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 345000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 355000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 365000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 465000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 475000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 495000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 505000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 515000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 525000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 535000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 545000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 645000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 655000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 675000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 685000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 695000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 705000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 715000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 725000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 825000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 835000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 855000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 865000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 875000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 885000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 895000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 905000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1005000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1015000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1035000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1045000 | State: s5_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1055000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1065000 | State: s6_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1075000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1085000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1095000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1105000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1115000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1125000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1135000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1145000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1155000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1165000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1175000 | State: s6_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1185000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1195000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1205000 | State: s6_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1215000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1225000 | State: s6_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1235000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 1255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 1265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 1275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 1285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 1295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 1305000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 1315000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 1325000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 1335000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 1345000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 1355000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 1365000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 1375000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 1385000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 1395000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 1405000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 1415000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 1425000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 1435000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 1445000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 1455000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 1465000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 1475000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 1485000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1495000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1505000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1515000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1525000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1535000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1545000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1555000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1565000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1575000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1585000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1595000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1605000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1615000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1625000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1635000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1645000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1655000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1665000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1675000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1685000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1695000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1705000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1715000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1725000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1735000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 1745000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 1755000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 1765000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 1775000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 1785000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 1795000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 1805000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 1815000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1825000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1835000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 1845000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 1855000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 1865000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 1875000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 1885000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 1895000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 1905000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 1915000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 1925000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 1935000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 1945000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 1955000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 1965000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 1975000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 1985000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 1995000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2005000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2015000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2025000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2035000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2045000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 0
+# Time: 2055000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2065000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2075000 | State: initialize | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2085000 | State: s1_yellow_down | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2095000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 1
+# Time: 2105000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 2
+# Time: 2115000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 3
+# Time: 2125000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 4
+# Time: 2135000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 5
+# Time: 2145000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 6
+# Time: 2155000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 7
+# Time: 2165000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 8
+# Time: 2175000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 9
+# Time: 2185000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 10
+# Time: 2195000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 11
+# Time: 2205000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 12
+# Time: 2215000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 13
+# Time: 2225000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 14
+# Time: 2235000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 15
+# Time: 2245000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 16
+# Time: 2255000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 17
+# Time: 2265000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 18
+# Time: 2275000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 19
+# Time: 2285000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 20
+# Time: 2295000 | State: s1_green | f1:001 f2:100 f3:001 f4:100 | Count: 21
+# Time: 2305000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 1
+# Time: 2315000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 2
+# Time: 2325000 | State: s1_yellow_up | f1:010 f2:100 f3:010 f4:100 | Count: 3
+# Time: 2335000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2345000 | State: s1_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2355000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2365000 | State: s2_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2375000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2385000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2395000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2405000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2415000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2425000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2435000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2445000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2455000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2465000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2475000 | State: s2_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2485000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2495000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2505000 | State: s2_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2515000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2525000 | State: s2_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2535000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2545000 | State: s3_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2555000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2565000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2575000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2585000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2595000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2605000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2615000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2625000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2635000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 2645000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 2655000 | State: s3_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 2665000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2675000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2685000 | State: s3_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2695000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2705000 | State: s3_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2715000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2725000 | State: s4_yellow_down | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2735000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 1
+# Time: 2745000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 2
+# Time: 2755000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 3
+# Time: 2765000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 4
+# Time: 2775000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 5
+# Time: 2785000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 6
+# Time: 2795000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 7
+# Time: 2805000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 8
+# Time: 2815000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 9
+# Time: 2825000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 10
+# Time: 2835000 | State: s4_green | f1:100 f2:001 f3:100 f4:001 | Count: 11
+# Time: 2845000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 1
+# Time: 2855000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 2
+# Time: 2865000 | State: s4_yellow_up | f1:100 f2:010 f3:100 f4:010 | Count: 3
+# Time: 2875000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2885000 | State: s4_red | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2895000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2905000 | State: s5_yellow_down | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2915000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 2925000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Time: 2935000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 3
+# Time: 2945000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 4
+# Time: 2955000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 5
+# Time: 2965000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 6
+# Time: 2975000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 7
+# Time: 2985000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 8
+# Time: 2995000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 9
+# Time: 3005000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 10
+# Time: 3015000 | State: s5_green | f1:100 f2:100 f3:100 f4:100 | Count: 11
+# Time: 3025000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 1
+# Time: 3035000 | State: s5_yellow_up | f1:100 f2:100 f3:100 f4:100 | Count: 2
+# Testbench completed successfully
+# ** Note: $finish    : E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv(53)
+#    Time: 3040 ns  Iteration: 0  Instance: /traffic_light_controller_tb
+# 1
+# Break in Module traffic_light_controller_tb at E:/digital designs/traffic_light_controller/traffic_light_controller_tb.sv line 53
+# End time: 14:36:40 on Aug 13,2025, Elapsed time: 1:36:23
+# Errors: 0, Warnings: 1

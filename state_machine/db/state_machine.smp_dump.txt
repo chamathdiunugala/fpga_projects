@@ -1,0 +1,14 @@
+
+State Machine - |uart_state_machine|state_machine:state_machine_inst|current_state
+Name current_state.S3 current_state.S2 current_state.S1 current_state.S0 
+current_state.S0 0 0 0 0 
+current_state.S1 0 0 1 1 
+current_state.S2 0 1 0 1 
+current_state.S3 1 0 0 1 
+
+State Machine - |uart_state_machine|uart_rx:uart_rx_inst|state
+Name state.STOP state.RECEIVE state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.RECEIVE 0 1 0 1 
+state.STOP 1 0 0 1 

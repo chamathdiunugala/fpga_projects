@@ -1,0 +1,100 @@
+module uart_rx #(
+    parameter CLKS_PER_BIT = 434 // example for 115200 baud @ 50 MHz
+)(
+    input  clk,                  // system clock (e.g., 50 MHz on DE2-115)
+    input  i_rx,                 // UART RX input
+    output logic [7:0] o_data,   // received byte
+    output logic o_data_available // goes high when byte is ready
+);
+
+    // State encoding
+    localparam IDLE    = 2'b00;
+    localparam START   = 2'b01;
+    localparam RECEIVE = 2'b10;
+    localparam STOP    = 2'b11;
+
+    // Synchronizer
+    logic rx_buffer = 1'b1;
+    logic rx = 1'b1;
+
+    // Internal registers
+    logic [1:0] state = IDLE;   // current FSM state
+    logic [31:0] counter = 0;   // counts clock cycles (for baud timing)
+    logic [2:0] bit_index = 0;  // which data bit (0–7) is being received
+    logic [7:0] data = 0;       // shift register for received bits
+    logic data_available = 0;   // internal signal for o_data_available
+
+    assign o_data = data;
+    assign o_data_available = data_available;
+
+    // Input synchronizer
+    always_ff @(posedge clk) begin
+        rx_buffer <= i_rx;
+        rx        <= rx_buffer;
+    end
+
+    // UART FSM
+    always_ff @(posedge clk) begin
+        case (state)
+
+            IDLE: begin
+                counter <= 0;
+                data_available <= 0;
+                bit_index <= 0;
+
+                if (rx == 0) begin
+                    state <= START; // falling edge → possible start
+                end else begin
+                    state <= IDLE;
+                end
+            end
+
+            START: begin
+                if (counter == (CLKS_PER_BIT - 1)/2) begin
+                    if (rx == 0) begin
+                        counter <= 0;
+                        state <= RECEIVE; // confirmed start bit
+                    end else begin
+                        counter <= 0;
+                        state <= IDLE;    // false start
+                    end
+                end else begin
+                    counter <= counter + 1;
+                    state <= START;
+                end
+            end
+
+            RECEIVE: begin
+                if (counter < CLKS_PER_BIT - 1) begin
+                    counter <= counter + 1;
+                    state <= RECEIVE;
+                end else begin
+                    counter <= 0;
+                    data[bit_index] <= rx; // sample bit
+                    if (bit_index < 7) begin
+                        bit_index <= bit_index + 1;
+                        state <= RECEIVE;
+                    end else begin
+                        bit_index <= 0;
+                        state <= STOP;
+                    end
+                end
+            end
+
+            STOP: begin
+                if (counter < CLKS_PER_BIT - 1) begin
+                    counter <= counter + 1;
+                    state <= STOP;
+                end else begin
+                    counter <= 0;
+                    data_available <= 1; // byte ready
+                    state <= IDLE;
+                end
+            end
+
+            default: state <= IDLE;
+
+        endcase
+    end
+
+endmodule

@@ -1,0 +1,15 @@
+{E:/digital designs/uart/uart_rx_tb.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/uart/uart_rx_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} {E:/digital designs/uart/uart_rx.sv} {1 {vlog -work work -sv -stats=none {E:/digital designs/uart/uart_rx.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}}

@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/digital designs/adder
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1755227198
+!i10b 1
+!s100 WQa49PhA74]izXNa=Rc<b3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IU^gAleXBBEmXVo5:K?LRW2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dE:/digital designs/pipelined_adder
+w1755115418
+8E:/digital designs/pipelined_adder/adder.sv
+FE:/digital designs/pipelined_adder/adder.sv
+!i122 25
+L0 1 11
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1755227198.000000
+!s107 E:/digital designs/pipelined_adder/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/pipelined_adder/adder.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+veight_bit_adder
+R0
+R1
+!i10b 1
+!s100 fndMjWLHIC_eY0W:?jjKM0
+R2
+I1iDY>5XT0GW01n?@cakEe1
+R3
+S1
+R4
+w1755115452
+8E:/digital designs/pipelined_adder/eight_bit_adder.sv
+FE:/digital designs/pipelined_adder/eight_bit_adder.sv
+!i122 26
+L0 1 20
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/digital designs/pipelined_adder/eight_bit_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/pipelined_adder/eight_bit_adder.sv|
+!i113 1
+R7
+R8
+vpipelined_adder
+R0
+R1
+!i10b 1
+!s100 ^TQ6>h7a?z0V<@Vf?bcSK1
+R2
+Ie6g1If406Y7G1bZ:P>eo]2
+R3
+S1
+R4
+w1755200274
+8E:/digital designs/pipelined_adder/pipelined_adder.sv
+FE:/digital designs/pipelined_adder/pipelined_adder.sv
+!i122 27
+L0 1 66
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/digital designs/pipelined_adder/pipelined_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/pipelined_adder/pipelined_adder.sv|
+!i113 1
+R7
+R8
+vpipelined_adder_tb
+R0
+R1
+!i10b 1
+!s100 hDaG>m:NXVH2H[3J]]50P3
+R2
+I:m>fYc2mcF^bG`jZU6;fJ1
+R3
+S1
+R4
+w1755227193
+8E:/digital designs/pipelined_adder/pipelined_adder_tb.sv
+FE:/digital designs/pipelined_adder/pipelined_adder_tb.sv
+!i122 28
+L0 3 89
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/digital designs/pipelined_adder/pipelined_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/pipelined_adder/pipelined_adder_tb.sv|
+!i113 1
+R7
+R8

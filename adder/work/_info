@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1755115524
+!i10b 1
+!s100 WQa49PhA74]izXNa=Rc<b3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG?ni^SlH?lNzA`4zimkdN0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dE:/digital designs/adder
+w1755115418
+8E:\digital designs\adder\adder.sv
+FE:\digital designs\adder\adder.sv
+!i122 9
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1755115524.000000
+!s107 E:\digital designs\adder\adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\digital designs\adder\adder.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vadder_tb
+R0
+!s110 1755115534
+!i10b 1
+!s100 2o5:kXfI40gh9hR81J^L32
+R1
+ITEZ7HP9EL:XO?LMzTgKG:2
+R2
+S1
+R3
+w1755115510
+8E:/digital designs/adder/adder_tb.sv
+FE:/digital designs/adder/adder_tb.sv
+!i122 10
+L0 3 30
+R4
+r1
+!s85 0
+31
+!s108 1755115534.000000
+!s107 E:/digital designs/adder/adder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/adder/adder_tb.sv|
+!i113 1
+R5
+R6
+veight_bit_adder
+R0
+!s110 1755115542
+!i10b 1
+!s100 fndMjWLHIC_eY0W:?jjKM0
+R1
+IK`Yloc1CTf98HL<;bKA4;0
+R2
+S1
+R3
+w1755115452
+8E:/digital designs/adder/eight_bit_adder.sv
+FE:/digital designs/adder/eight_bit_adder.sv
+!i122 11
+L0 1 20
+R4
+r1
+!s85 0
+31
+!s108 1755115542.000000
+!s107 E:/digital designs/adder/eight_bit_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/adder/eight_bit_adder.sv|
+!i113 1
+R5
+R6
+veight_bit_adder_tb
+R0
+!s110 1755115696
+!i10b 1
+!s100 ]m2dbN[zlQnz1AZnC<RHI2
+R1
+ILg0DYHER:6iKVfTE6SmfG2
+R2
+S1
+R3
+w1755115689
+8E:\digital designs\adder\eight_bit_adder_tb.sv
+FE:\digital designs\adder\eight_bit_adder_tb.sv
+!i122 13
+Z7 L0 3 45
+R4
+r1
+!s85 0
+31
+!s108 1755115696.000000
+!s107 E:\digital designs\adder\eight_bit_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:\digital designs\adder\eight_bit_adder_tb.sv|
+!i113 1
+R5
+R6
+vnumber_adder
+R0
+!s110 1755139396
+!i10b 1
+!s100 5i[03A[<?20;`IN5mR1Wh1
+R1
+IATKYjTZ@Sd1=OD0dL=ffJ3
+R2
+S1
+R3
+w1755139099
+8E:/digital designs/adder/number_adder.sv
+FE:/digital designs/adder/number_adder.sv
+!i122 14
+L0 1 16
+R4
+r1
+!s85 0
+31
+!s108 1755139396.000000
+!s107 E:/digital designs/adder/number_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/adder/number_adder.sv|
+!i113 1
+R5
+R6
+vnumber_adder_tb
+R0
+!s110 1755139403
+!i10b 1
+!s100 =hV_H=>MHgUDjQ3cXFZ]^0
+R1
+Ihon`_]AkHLFZ?iEcdkaLQ3
+R2
+S1
+R3
+w1755139379
+8E:/digital designs/adder/number_adder_tb.sv
+FE:/digital designs/adder/number_adder_tb.sv
+!i122 15
+R7
+R4
+r1
+!s85 0
+31
+!s108 1755139402.000000
+!s107 E:/digital designs/adder/number_adder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/digital designs/adder/number_adder_tb.sv|
+!i113 1
+R5
+R6

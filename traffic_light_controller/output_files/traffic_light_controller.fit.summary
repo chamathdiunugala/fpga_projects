@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Aug 13 12:59:29 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : traffic_light_controller
+Top-level Entity Name : traffic_light_controller
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 118 / 22,320 ( < 1 % )
+    Total combinational functions : 118 / 22,320 ( < 1 % )
+    Dedicated logic registers : 11 / 22,320 ( < 1 % )
+Total registers : 11
+Total pins : 50 / 154 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

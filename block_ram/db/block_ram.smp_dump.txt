@@ -1,0 +1,6 @@
+
+State Machine - |adder_ram|state
+Name state.S_IDLE state.S_CHECK state.S_READ 
+state.S_IDLE 0 0 0 
+state.S_READ 1 0 1 
+state.S_CHECK 1 1 0 
